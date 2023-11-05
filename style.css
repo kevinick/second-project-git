@@ -1,0 +1,69 @@
+:root {
+  --federal-blue: #03045eff;
+  --bright-pink-crayola: #ef476fff;
+  --sunglow: #ffd166ff;
+  --emerald: #06d6a0ff;
+  --blue-ncs: #118ab2ff;
+  --midnight-green: #073b4cff;
+  --dark: rgba(0, 0, 0, 0.6);
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: var(--midnight-green);
+}
+
+.container p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--federal-blue);
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn--addition {
+  background-color: var(--emerald);
+  color: var(--dark);
+}
+
+.btn--addition:hover {
+  box-shadow: 2px 2px 3px var(--dark);
+}
+
+.btn--subtraction {
+  background-color: var(--bright-pink-crayola);
+  color: var(--dark);
+}
+
+.btn--subtraction:hover {
+  box-shadow: 2px 2px 3px var(--dark);
+}
+
+.btn--reset {
+  background-color: var(--blue-ncs);
+  color: var(--dark);
+}
+
+.btn--reset:hover {
+  box-shadow: 2px 2px 3px var(--dark);
+}
