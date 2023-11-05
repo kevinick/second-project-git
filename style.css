@@ -67,3 +67,12 @@ body {
 .btn--reset:hover {
   box-shadow: 2px 2px 3px var(--dark);
 }
+
+.btn--multi {
+  background-color: var(--sunglow);
+  color: var(--dark);
+}
+
+.btn--multi:hover {
+  box-shadow: 2px 2px 3px var(--dark);
+}
