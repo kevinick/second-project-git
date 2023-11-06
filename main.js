@@ -12,3 +12,4 @@ function multi() {
   clicks *= 2;
   document.getElementById("clicks").innerHTML = clicks;
 }
+console.log("stash");
