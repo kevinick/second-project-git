@@ -12,3 +12,8 @@ function multi() {
   clicks *= 2;
   document.getElementById("clicks").innerHTML = clicks;
 }
+function dividir() {
+  clicks *= 2;
+  document.getElementById("clicks").innerHTML = clicks;
+}
+console.log("emergencia");
